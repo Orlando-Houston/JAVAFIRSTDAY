@@ -1,4 +1,4 @@
-package Dat_21_Array;
+package Day_21_Array;
 
 public class MovieDecision {
     public static void main(String[] args) {

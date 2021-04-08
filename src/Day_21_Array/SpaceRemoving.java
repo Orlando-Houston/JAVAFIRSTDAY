@@ -1,4 +1,4 @@
-package Dat_21_Array;
+package Day_21_Array;
 
 public class SpaceRemoving {
     public static void main(String[] args) {
