@@ -1,0 +1,22 @@
+package Day_19_Array;
+
+import Day_16_7_8.TenByTenArray;
+
+public class TenByTenDivisibleByFour {
+    public static void main(String[] args) {
+        int[][] numbers = TenByTenArray.generateArray(10);
+        printDivisibleFour(numbers);
+    }
+    public static void printDivisibleFour(int[][] arr){
+        for(int[] row:arr){
+            for(int number:row){
+                if(number%4==0)
+                    System.out.print("\t"+number);
+                else
+                    System.out.print("\t -");
+            }
+            System.out.println();
+        }
+    }
+
+}
