@@ -1,8 +1,8 @@
 package Day_23_29_CreatingClasses;
 
-public class A {
-    int x;
+public class D {
     public static void main(String[] args) {
+        C myC = new C();
 
     }
 }
